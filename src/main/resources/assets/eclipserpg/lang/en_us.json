@@ -1,5 +1,48 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item"
+  "item.eclipserpg.bismuth": "Bismuth",
+  "item.eclipserpg.raw_bismuth": "Raw Bismuth",
+  "item.eclipserpg.chisel": "Chisel",
+
+  "item.eclipserpg.radish": "Radish",
+  "item.eclipserpg.frostfire_ice": "Frostfire Ice",
+  "item.eclipserpg.starlight_ashes": "Starlight Ashes",
+
+  "item.eclipserpg.bismuth_sword": "Bismuth Sword",
+  "item.eclipserpg.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.eclipserpg.bismuth_shovel": "Bismuth Shovel",
+  "item.eclipserpg.bismuth_axe": "Bismuth Axe",
+  "item.eclipserpg.bismuth_hoe": "Bismuth Hoe",
+
+
+  "block.eclipserpg.bismuth_block": "Block of Bismuth",
+  "block.eclipserpg.bismuth_ore": "Bismuth Ore",
+  "block.eclipserpg.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+
+  "block.eclipserpg.magic_block": "Magic Block",
+
+  "block.eclipserpg.bismuth_stairs": "Bismuth Stairs",
+  "block.eclipserpg.bismuth_slab": "Bismuth Slab",
+
+  "block.eclipserpg.bismuth_button": "Bismuth Button",
+  "block.eclipserpg.bismuth_pressure_plate": "Bismuth Pressure Plate",
+
+  "block.eclipserpg.bismuth_fence": "Bismuth Fence",
+  "block.eclipserpg.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.eclipserpg.bismuth_wall": "Bismuth Wall",
+
+  "block.eclipserpg.bismuth_door": "Bismuth Door",
+  "block.eclipserpg.bismuth_trapdoor": "Bismuth Trapdoor",
+
+  "block.eclipserpg.bismuth_lamp": "Bismuth Lamp",
+
+  "creativetab.eclipserpg.bismuth_items": "Bismuth Items",
+  "creativetab.eclipserpg.bismuth_blocks": "Bismuth Blocks",
+
+
+  "tooltip.eclipserpg.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+
+  "tooltip.eclipserpg.chisel.shift_down": "This Item can chisel Blocks into Bricks",
+  "tooltip.eclipserpg.chisel": "Press §eShift§r for more Information",
+
+  "tooltip.eclipserpg.radish.tooltip": "Tastes really great!"
 }
