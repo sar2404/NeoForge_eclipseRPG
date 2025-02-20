@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eclipserpg:block/loom_crafter"
+    },
+    "facing=east": {
+      "model": "eclipserpg:block/loom_crafter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "eclipserpg:block/loom_crafter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eclipserpg:block/loom_crafter",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "eclipserpg:block/loom_crafter",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "eclipserpg:block/loom_crafter",
+      "x": 90
+    }
+  }
+}

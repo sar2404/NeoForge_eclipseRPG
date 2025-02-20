@@ -39,6 +39,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FROSTFIRE_ICE);
                         output.accept(ModItems.STARLIGHT_ASHES);
 
+                        output.accept(ModItems.INFECTED_SPAWN_EGG);
+
+
                         output.accept(ModItems.BISMUTH_SWORD);
                         output.accept(ModItems.BISMUTH_PICKAXE);
                         output.accept(ModItems.BISMUTH_SHOVEL);
@@ -54,6 +57,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_BLOCK);
                         output.accept(ModBlocks.BISMUTH_ORE);
 
+                        output.accept(ModBlocks.FURNACE);
+                        output.accept(ModBlocks.CRUSHER);
+                        output.accept(ModBlocks.LOOM_CRAFTER);
+                        output.accept(ModBlocks.TESTING);
                         output.accept(ModBlocks.ATLANTIUM_BLOCK);
                         output.accept(ModBlocks.ATHLANTIUM_ORE);
                         output.accept(ModBlocks.ECLIPTON_ORE);
@@ -62,6 +69,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBIDIUM_ORE);
                         output.accept(ModBlocks.DINBAR_BLOCK);
                         output.accept(ModBlocks.DINBAR_ORE);
+
+
 
 
                         output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
@@ -74,6 +83,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE);
                         output.accept(ModBlocks.BISMUTH_BUTTON);
 
+                        output.accept(ModBlocks.PILON);
+                        output.accept(ModBlocks.CHAIR);
                         output.accept(ModBlocks.BISMUTH_FENCE);
                         output.accept(ModBlocks.BISMUTH_FENCE_GATE);
                         output.accept(ModBlocks.BISMUTH_WALL);

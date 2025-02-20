@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eclipserpg:block/furnacetop",
+    "up": "eclipserpg:block/furnacetop",
+    "north": "eclipserpg:block/furnacefront",
+    "east": "eclipserpg:block/furnaceside",
+    "south": "eclipserpg:block/furnaceside",
+    "west": "eclipserpg:block/furnaceside",
+    "particle": "eclipserpg:block/furnacetop"
+  },
+  "render_type": "solid"
+}

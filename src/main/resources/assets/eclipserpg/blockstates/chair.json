@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eclipserpg:block/chair"
+    },
+    "facing=south": {
+      "model": "eclipserpg:block/chair",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "eclipserpg:block/chair",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "eclipserpg:block/chair",
+      "y": 270
+    }
+  }
+}

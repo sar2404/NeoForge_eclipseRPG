@@ -23,6 +23,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_BISMUTH.get());
 
         basicItem(ModItems.RAW_ECLIPTON.get());
+
+
+        basicItem(ModItems.ATHLANTIUM_GEM.get());
+
         basicItem(ModItems.ECLIPTON.get());
         basicItem(ModItems.ATHLANTIUM.get());
         basicItem(ModItems.RAW_ATHLANTIUM.get());
@@ -47,6 +51,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.BISMUTH_SHOVEL);
         handheldItem(ModItems.BISMUTH_AXE);
         handheldItem(ModItems.BISMUTH_HOE);
+
+        withExistingParent(ModItems.INFECTED_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

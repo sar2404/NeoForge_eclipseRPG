@@ -27,7 +27,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
+        dropSelf(ModBlocks.FURNACE.get());
+        dropSelf(ModBlocks.LOOM_CRAFTER.get());
+        dropSelf(ModBlocks.CRUSHER.get());
         dropSelf(ModBlocks.BISMUTH_BLOCK.get());
+        dropSelf(ModBlocks.CHAIR.get());
+        dropSelf(ModBlocks.PILON.get());
+
+        dropSelf(ModBlocks.TESTING.get());
+
+        dropSelf(ModBlocks.PILON.get());
 
         dropSelf(ModBlocks.DINBAR_BLOCK.get());
 

@@ -3,6 +3,7 @@ package com.seiram.eclipserpg.block;
 import com.seiram.eclipserpg.EclipseRPG;
 
 import com.seiram.eclipserpg.block.custom.*;
+import com.seiram.eclipserpg.block.custom.FurnaceBlock;
 import com.seiram.eclipserpg.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -30,6 +31,23 @@ public class ModBlocks {
 
 
 //bloques del mod seiram
+    public static final DeferredBlock<Block> TESTING = registerBlock("testing", TestingBlock::new);
+
+    public static final DeferredBlock<Block> PILON = registerBlock("pilon",
+            () -> new Pilon(BlockBehaviour.Properties.of().noOcclusion()));
+
+
+    public static final DeferredBlock<Block> CHAIR = registerBlock("chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+
+    public static final DeferredBlock<Block> FURNACE = registerBlock("furnace",
+            FurnaceBlock::new);
+    public static final DeferredBlock<Block> CRUSHER = registerBlock("crusher", CrusherBlock::new);
+
+
+    public static final DeferredBlock<Block> LOOM_CRAFTER = registerBlock("loom_crafter",
+            LoomCrafterBlock::new);
 
     public static final DeferredBlock<Block> DINBAR_BLOCK = registerBlock("dinbar_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(3f)));
@@ -62,6 +80,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
+
 
     public static final DeferredBlock<StairBlock> BISMUTH_STAIRS = registerBlock("bismuth_stairs",
             () -> new StairBlock(ModBlocks.BISMUTH_BLOCK.get().defaultBlockState(),
@@ -96,6 +115,7 @@ public class ModBlocks {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
+
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

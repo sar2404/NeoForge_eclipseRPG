@@ -1,0 +1,18 @@
+{
+  "length": 1.0,
+  "looping": true,
+  "channels": {
+    "head": [
+      { "time": 0.0, "rotation": [5.0, 0.0, 0.0], "interp": "LINEAR" },
+      { "time": 0.25, "rotation": [-2.5, 0.0, -2.5], "interp": "LINEAR" },
+      { "time": 0.5833, "rotation": [-2.5, 0.0, 5.0], "interp": "LINEAR" },
+      { "time": 1.0, "rotation": [5.0, 0.0, 0.0], "interp": "LINEAR" }
+    ],
+    "left_arm": [
+      { "time": 0.0, "rotation": [22.5, 0.0, 0.0], "interp": "LINEAR" },
+      { "time": 0.5, "rotation": [-20.0, 0.0, 0.0], "interp": "LINEAR" },
+      { "time": 1.0, "rotation": [22.5, 0.0, 0.0], "interp": "LINEAR" }
+    ]
+
+  }
+}

@@ -7,6 +7,19 @@
   "item.eclipserpg.frostfire_ice": "Frostfire Ice",
   "item.eclipserpg.starlight_ashes": "Starlight Ashes",
 
+  "item.eclipserpg.raw_dinbar": "Raw Dinbar",
+  "item.eclipserpg.dinbar": "Dinbar",
+  "item.eclipserpg.raw_eclipton": "Raw Eclipton",
+  "item.eclipserpg.eclipton": "Eclipton",
+  "item.eclipserpg.raw_rubidium": "Raw Rubidium",
+  "item.eclipserpg.rubidium": "Rubidium",
+  "item.eclipserpg.raw_athlantium": "Raw Athlantium",
+  "item.eclipserpg.athlantium": "athlantium ",
+
+  "gui.eclipserpg.furnace_gui.label_fuel_bnbtintegerfuelremainin": "Fuel: \u003cBNBT:integer:fuelRemaining\u003e%",
+  "block.eclipserpg.furnace": "Custom Furnace",
+  "gui.eclipserpg.furnace_gui.label_custom_furnace": "Custom Furnace",
+
   "item.eclipserpg.bismuth_sword": "Bismuth Sword",
   "item.eclipserpg.bismuth_pickaxe": "Bismuth Pickaxe",
   "item.eclipserpg.bismuth_shovel": "Bismuth Shovel",
@@ -14,7 +27,17 @@
   "item.eclipserpg.bismuth_hoe": "Bismuth Hoe",
 
 
+  "block.eclipserpg.athlantium_ore": "Athlantium Ore",
+  "block.eclipserpg.athlantium_block": "Athlantium block",
+  "block.eclipserpg.rubidium_ore": "Rubidium Ore",
+  "block.eclipserpg.rubidium_block": "Rubidium block",
+  "block.eclipserpg.eclipton_ore": "Eclipton Ore",
+  "block.eclipserpg.eclipton_block": "Eclipton block",
+  "block.eclipserpg.dinbar_ore": "Dinbar Ore",
+  "block.eclipserpg.dinbar_block": "Dinbar block",
+
   "block.eclipserpg.bismuth_block": "Block of Bismuth",
+
   "block.eclipserpg.bismuth_ore": "Bismuth Ore",
   "block.eclipserpg.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
@@ -44,5 +67,12 @@
   "tooltip.eclipserpg.chisel.shift_down": "This Item can chisel Blocks into Bricks",
   "tooltip.eclipserpg.chisel": "Press §eShift§r for more Information",
 
-  "tooltip.eclipserpg.radish.tooltip": "Tastes really great!"
+  "tooltip.eclipserpg.radish.tooltip": "Tastes really great!",
+
+  "gui.eclipserpg.test_ui.tooltip_hojitas": "",
+  "gui.eclipserpg.test_ui.button_applle": "APPLE!",
+  "item_group.eclipserpg.test": "Test",
+  "gui.eclipserpg.test_ui.label_testui": "TESTUI",
+  "block.eclipserpg.testing": "Testing",
+  "gui.eclipserpg.test_ui.label_empty": ""
 }

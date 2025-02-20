@@ -20,6 +20,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.BISMUTH_BLOCK);
 
+        blockWithItem(ModBlocks.TESTING);
+
         blockWithItem(ModBlocks.ATLANTIUM_BLOCK);
         blockWithItem(ModBlocks.DINBAR_BLOCK);
         blockWithItem(ModBlocks.RUBIDIUM_BLOCK);
@@ -32,6 +34,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.BISMUTH_ORE);
         blockWithItem(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+
 
         blockWithItem(ModBlocks.MAGIC_BLOCK);
 

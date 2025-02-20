@@ -30,6 +30,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(Items.STICK)
                 .add(Items.COMPASS);
 
+        tag(ModTags.Items.ATHLANTIUM_ITEMS)
+                .add(ModItems.ATHLANTIUM_GEM.get())
+                .add(ModItems.ATHLANTIUM.get());
+
         tag(ItemTags.SWORDS)
                 .add(ModItems.BISMUTH_SWORD.get());
         tag(ItemTags.PICKAXES)
