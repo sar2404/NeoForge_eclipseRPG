@@ -59,7 +59,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.FURNACE);
                         output.accept(ModBlocks.CRUSHER);
-                        output.accept(ModBlocks.LOOM_CRAFTER);
+
                         output.accept(ModBlocks.TESTING);
                         output.accept(ModBlocks.ATLANTIUM_BLOCK);
                         output.accept(ModBlocks.ATHLANTIUM_ORE);

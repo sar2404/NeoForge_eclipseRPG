@@ -7,7 +7,6 @@ import net.neoforged.api.distmarker.Dist;
 
 import com.seiram.eclipserpg.client.TestUIScreen;
 import com.seiram.eclipserpg.client.CrusherUIScreen;
-import com.seiram.eclipserpg.client.LoomScreen;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class EclipserpgModScreens {
@@ -15,7 +14,7 @@ public class EclipserpgModScreens {
     public static void clientLoad(RegisterMenuScreensEvent event) {
         event.register(EclipserpgModMenus.TEST_UI.get(), TestUIScreen::new);
         event.register(EclipserpgModMenus.FURNACE_GUI.get(), FurnaceGUIScreen::new);
-        event.register(EclipserpgModMenus.LOOM.get(), LoomScreen::new);
+
         event.register(EclipserpgModMenus.CRUSHER_UI.get(), CrusherUIScreen::new);
     }
 }

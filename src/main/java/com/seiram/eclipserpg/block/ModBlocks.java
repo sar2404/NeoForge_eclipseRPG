@@ -46,8 +46,6 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CRUSHER = registerBlock("crusher", CrusherBlock::new);
 
 
-    public static final DeferredBlock<Block> LOOM_CRAFTER = registerBlock("loom_crafter",
-            LoomCrafterBlock::new);
 
     public static final DeferredBlock<Block> DINBAR_BLOCK = registerBlock("dinbar_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(3f)));
